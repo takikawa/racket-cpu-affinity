@@ -2,6 +2,8 @@
 
 A library for getting/setting CPU affinity.
 
+FIXME: works on Windows and Linux so far. No Mac support yet.
+
 ---
 
 Copyright (c) 2015 Asumu Takikawa
