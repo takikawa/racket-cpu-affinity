@@ -1,5 +1,7 @@
 #lang info
 
+(define version "0.1")
+
 (define build-deps '("scribble-lib" "compatibility-lib"
                      "racket-doc" "compatibility-doc"))
 (define deps '("base"))
