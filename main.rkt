@@ -16,8 +16,9 @@
 
 (define lib-path
   (case (system-type 'os)
-    [(unix macosx) "unix.rkt"]
-    [(windows) "windows.rkt"]))
+    [(unix) "unix.rkt"]
+    [(windows) "windows.rkt"]
+    [(macosx) "error.rkt"]))
 
 (define get-affinity-mask (dynamic-require lib-path 'get-affinity-mask))
 (define set-affinity-mask (dynamic-require lib-path 'set-affinity-mask))
