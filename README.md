@@ -2,7 +2,9 @@
 
 A library for getting/setting CPU affinity.
 
-FIXME: works on Windows and Linux so far. No Mac support yet.
+Does not work on Mac OS X because OS X does not expose an API for pinning
+processes to CPUs. See:
+  https://developer.apple.com/library/mac/releasenotes/Performance/RN-AffinityAPI/
 
 ---
 
