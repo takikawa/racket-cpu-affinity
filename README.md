@@ -1,5 +1,7 @@
 # cpu-affinity
 
+[![Scribble](https://img.shields.io/badge/Docs-Scribble-blue.svg)](http://pkg-build.racket-lang.org/doc/cpu-affinity/index.html)
+
 A library for getting/setting CPU affinity.
 
 Does not work on Mac OS X because OS X does not expose an API for pinning
